@@ -255,7 +255,7 @@ hr {
     
 }
 
-
+/* 
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto auto;
@@ -294,7 +294,45 @@ hr {
   .after-grid p {
     font-size: 18px;
     padding-bottom: 50px;
-  }
+  } */
+
+.after-grid {
+    margin-left: 40px;
+}
+
+.after-grid h1{
+    font-size: 50px;
+    margin-bottom: 25px;
+}  
+
+.after-grid p {
+    font-size: 20px;
+}
+
+
+
+.block {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.box {
+    background-color: #bdbdbd;
+    border: 2px solid #333;
+    border: none;
+    padding: 10px;
+}
+
+.box-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    grid-auto-rows: 200px;
+    margin: 40px;
+}
+
+
 
  .button4 {
     display: flex;
@@ -323,4 +361,10 @@ hr {
     font-size: 50px;
     font-weight: 700;
     margin-bottom: 70px;
+    display: flex;
 }
+
+.conjunto  {
+
+}
+
