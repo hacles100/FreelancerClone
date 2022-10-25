@@ -487,6 +487,65 @@ div .gallery img {
     margin-bottom: 20px;
 }
 
+
+.penultimo-background-div .button-6 {
+    height: 40px;
+    width: 190px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 4px;
+    color: white;
+    background-color: #f20091;
+    border: none;
+}
+
+.penultimo-background-div .button-7 {
+    height: 40px;
+    width: 130px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 4px;
+    color: white;
+    background-color: #f20091;
+    border: none;
+}
+
+
+
+
+
 .footer-content .footer-content-div {
     display: inline-block;
+}
+
+footer {
+    background-color: #0e1724;
+    height: 800px;
+    margin: 0;
+}
+
+.footer-content-div  a {
+    color: white;
+}
+
+.footer-content-div h3 {
+    color: white;
+}
+
+.footer-content-div {
+    color: white;
+}
+
+.ultimo-footer {
+    display: flex;
+}
+
+.ultimo-footer h5 {
+    color: white;
+}
+
+.ultimo-footer p {
+    color: white;
 }
