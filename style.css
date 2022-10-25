@@ -210,24 +210,41 @@ hr {
 }
 
 
+
 .main .titulo {
     font-size: 25px;
-    padding-left: 50px;
+    padding-left: 35px;
     padding-bottom: 90px;
 }
 
 .main-images {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    padding-left: 40px;
+    padding-left: 30px;
     vertical-align: middle;
 }
 
 
-.listas {
-    font-weight: bold;
-    font-size: 21px;
+.patrao {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-right: 50px;
+}
+
+.patrao-img {
+    display: flex;
+    height: 65px;
+}
+
+.paragrafo {
+    display: flex;
+    margin-top: 20px;
+    justify-content: flex-end;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 20px;
 }
 
 .main-paragrafos {
