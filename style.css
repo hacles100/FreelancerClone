@@ -436,3 +436,57 @@ div .gallery img {
     transition: 0.7s;
 }
 
+
+.icones .icones-header-content {
+    display: inline-block;
+}
+
+.icones-header-content {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+
+.icones-header-content img{
+    height: 35px;
+    width: 90px;
+
+}
+
+/* Outra section */
+
+
+.penultimo-background {
+    background-image: url("/img/imagem3.jpg");
+    background-size: cover;
+    height: 560px;
+
+}
+
+.penultimo-background .penultimo-background-div {
+    display: inline-block;
+    align-items: center;
+    color: white;
+    margin-top: 130px;
+    padding-left: 200px;
+}
+
+.penultimo-background-div h4 {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.penultimo-background-div h2 {
+    font-weight: bold;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.penultimo-background-div p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.footer-content .footer-content-div {
+    display: inline-block;
+}
