@@ -364,7 +364,75 @@ hr {
     display: flex;
 }
 
-.conjunto  {
 
+/* Gallery */
+
+
+.down4 h1 {
+    margin-left: 40px;
+    font-size: 50px;
+    margin-top: 30px;
+}
+
+.down4 p {
+    margin-left: 40px;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+
+.gallery {
+    float: left;
+    margin: 10px 70px 10px 70px;
+    width: 180px;
+    
+}
+
+div .desc {
+    padding: 15px;
+    text-align: center;
+}
+
+div .gallery img {
+    /* width: 100%; */
+    width: 300px;
+    height: auto;
+}
+
+.main2 {
+    display: inline-block;
+    margin-right: 110px;
+}
+
+.main-down4 {
+    text-align: center;
+}
+
+.main2 .gallery .desc {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.down4-button button {
+
+    color: white;
+    background-color: #f20091;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    height: 50px;
+    width: 240px;
+    font-size: 20px;
+    margin-left: 600px;
+    margin-top: 20px;
+    cursor: pointer;
+    
+}
+
+
+.down4-button button:hover {
+    background-color: #cb037b;
+    transition: 0.7s;
 }
 
